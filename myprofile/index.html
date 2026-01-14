@@ -1,33 +1,45 @@
-<html>
+<html lang="en">
 <head>
- <title>Kriswebpage</title> 
- <link rel="icon" type="image/jpg" href="images/asdd.jpg">
- <style>
-  .city {background-color: SlateBlue;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-  text-align: center;}
- </style>
- <style>
-  #myHeader {background-color: lightblue;
-  color: black;
-  padding: 40px;
-  text-align: center;} 
- </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #333; color: white; text-align: center; padding: 1em; }
+        nav { background-color: #f4f4f4; padding: 0.5em; }
+        nav ul { list-style-type: none; margin: 0; padding: 0; text-align: center; }
+        nav li { display: inline; margin: 0 1em; }
+        main { padding: 1em; }
+        footer { background-color: #333; color: white; text-align: center; padding: 1em; position: fixed; bottom: 0; width: 100%; }
+    </style>
 </head>
-  <body>
-    <Div class="city">
-      <h2>About me</h2>
-      <p>Hello its me kris and this is my babycakes
-      </p>
-     <div>
-      <h1 id="myHeader"> Antonnela </h1>
-     </div>
-    </Div>
-   <div>
-    <img width="300" Height="333" src="images/att.CHfup7XwFUrLYxoJFFQo861-y3Ab7S4a2BXjGbov9ts.jpeg" alt="" id="myHeader">
-   </div>
-  </body>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the home section. Add your content here.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Learn more about us.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Get in touch!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+</body>
 </html>
